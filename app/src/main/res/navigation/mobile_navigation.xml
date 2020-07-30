@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.shaswat.kumar.cwph_lusip.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_fac_member"
+        android:name="com.shaswat.kumar.cwph_lusip.ui.Faculty.FacultyMembers"
+        android:label="@string/menu_faculty_member"
+        tools:layout="@layout/faculty_member" />
+
+    <fragment
+        android:id="@+id/nav_dev_details"
+        android:name="com.shaswat.kumar.cwph_lusip.ui.developer_details.DeveloperDetailsFragment"
+        android:label="@string/menu_dev_details"
+        tools:layout="@layout/developer_details" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.shaswat.kumar.cwph_lusip.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.shaswat.kumar.cwph_lusip.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+
+</navigation>

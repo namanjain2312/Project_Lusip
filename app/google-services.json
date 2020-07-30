@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "893033381867",
+    "firebase_url": "https://cwphlusip-42b19.firebaseio.com",
+    "project_id": "cwphlusip-42b19",
+    "storage_bucket": "cwphlusip-42b19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893033381867:android:ffd576a6c1ce4e8bd9a3ae",
+        "android_client_info": {
+          "package_name": "com.shaswat.kumar.cwph_lusip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893033381867-h6pilhll2i3k6rh8lu8piac79mbc9dp3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shaswat.kumar.cwph_lusip",
+            "certificate_hash": "8231b9820939b5e7cded5a82a9ba4ff093d4ec6e"
+          }
+        },
+        {
+          "client_id": "893033381867-n4cq3o1qkkt1f2urfuhb99n6lubkq9uc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYw_HsxXp1NmoEnDbG6asuzkgk6_91KmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893033381867-n4cq3o1qkkt1f2urfuhb99n6lubkq9uc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

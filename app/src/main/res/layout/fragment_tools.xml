@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bordercard" >
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tedd"
+                android:background="@drawable/borderimg"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:text="TED Talks"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#0033FF" />
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:background="#f40"
+                android:padding="10dp"
+                android:text="OPEN"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:id="@+id/gototed"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bordercard" >
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/success"
+                android:background="@drawable/borderimg"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="75dp"
+                android:text="Success Tales"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#0033FF" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:background="#f40"
+                android:padding="10dp"
+                android:text="OPEN"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:id="@+id/goToSu"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bordercard" >
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/achieve"
+                android:background="@drawable/borderimg"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:text="   Academy of
+                   Achievement’s"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#0033FF" />
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:background="#f40"
+                android:padding="10dp"
+                android:text="OPEN"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:id="@+id/gotoachieve"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bordercard" >
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/heal"
+                android:background="@drawable/borderimg"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="70dp"
+                android:text="  Heal Your Life"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#0033FF" />
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:background="#f40"
+                android:padding="10dp"
+                android:text="OPEN"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:id="@+id/gotoheal"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bordercard" >
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/suicide"
+                android:background="@drawable/borderimg"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:text="Say no to SUICIDE"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#0033FF" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:background="#f40"
+                android:padding="10dp"
+                android:text="OPEN"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:id="@+id/gotosuicide"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border" >
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/ruchirimg"
+                app:civ_border_color="#3f51b5"
+                app:civ_border_width="4dp"
+                app:civ_shadow="true"
+                app:civ_shadow_radius="10dp"
+                android:layout_marginLeft="45dp"
+                app:civ_shadow_color="#3f51b5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="60dp"
+                android:text="MR. RUCHIR SODHANI\n"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="COUNSELLOR : \n
+                RBH Department of Neurosciences\n"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ABOUT : \n
+                A GD (counselling) from Australia, Mr. Ruchir helps manage emotional distress. His areas of special interest include Mental Wellbeing, Depression, Anxiety, Relationships, Alcohol and other addictions.\n"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="EDUCATION AND FELLOWSHIPS :\n
+                GD (Counselling), Australia\n
+                BE\n"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:text="PREVIOUS EXPERIENCE :\n
+                Lifeline (Counselling), Australia\n
+                Crisis and Suicide Prevention Helpline\n
+                (Crisis Support), Australia\n
+                Wesley Hospital (Alcohol and Other\n
+                Drug Addiction), Australia\n
+                Mission Australia (Mental Health\n
+                Support), Australia\n"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SPECIAL INTERESTS :\n
+                Mental Wellbeing, Depression, Anxiety\n
+                Relationships\n
+                Alcohol and other addictions\n
+                Loss and Sadness\n"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="PROFESSIONAL MEMBERSHIPS :\n
+                Australian Counselling Association,\n
+                ACA (Australia)\n
+                National Academy of Psychology,\n
+                NAOP (India)\n"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border" >
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/arshitaimg"
+                app:civ_border_color="#3f51b5"
+                app:civ_border_width="4dp"
+                app:civ_shadow="true"
+                app:civ_shadow_radius="10dp"
+                android:layout_marginLeft="45dp"
+                app:civ_shadow_color="#3f51b5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="60dp"
+                android:text="MRS. ARSHITA NAIR \n"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="COUNSELLOR : \n
+                RBH Department of Neurosciences\n"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ABOUT : \n
+                Arshita Nair is a renowned and highly trusted personality in the medical fraternity. She is a Psychologist and Counsellor\n"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:text="PREVIOUS EXPERIENCE :\n
+                She is a Psychologist and Counsellor in GopalpuraBypassRoad locality in Jaipur having a rich experience of over 2 years\n"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SPECIAL INTERESTS :\n
+                Acute Stress Disorder\n
+                Alcoholism, Depression\n
+                Anxiety Disorders\n
+                Obsessive-Compulsive Disorders\n
+                Panic Sisorders and Social Phobia\n"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="PROFESSIONAL MEMBERSHIPS :\n
+                CK Birla Hospitals – RBH\n
+                Jaipur\n"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
